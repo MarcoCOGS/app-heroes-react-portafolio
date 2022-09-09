@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/app-heroes-react-portafolio/static/css/main.31d6cfe0.css",
+    "main.js": "/app-heroes-react-portafolio/static/js/main.25290572.js",
+    "index.html": "/app-heroes-react-portafolio/index.html",
+    "main.25290572.js.map": "/app-heroes-react-portafolio/static/js/main.25290572.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.25290572.js"
+  ]
+}
