@@ -1,5 +1,6 @@
 import { useMemo } from "react"
 import { Navigate, useNavigate, useParams } from "react-router-dom"
+import { heroImages } from "../components"
 import { getHeroId } from "../helpers"
 
 
@@ -13,7 +14,7 @@ export const Hero = () => {
   const onNavigateBack = ()=>{
     navigate(`/${hero.publisher.split(" ")[0].toLowerCase()}`)
   }
-
+//`/assets/heroes/${id}.jpg`
   if(!hero){
     return <Navigate to="/marvel"/>
   }
@@ -21,7 +22,7 @@ export const Hero = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img 
-          src={`/assets/heroes/${id}.jpg`}
+          src={heroImages[id.replace('-','')]}
           alt={hero.superhero}
           className="img-thumbnail animate__animated animate__fadeInLeft" />
       </div>

@@ -28,7 +28,7 @@ const CharactersByHero=({alter_ego,characters})=>{
 
     return <p>{characters}</p>
 }
-const heroImages ={
+export const heroImages ={
     dcarrow,
     dcbatman,
     dcblack,
